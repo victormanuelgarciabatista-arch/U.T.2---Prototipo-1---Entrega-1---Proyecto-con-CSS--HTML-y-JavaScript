@@ -1,0 +1,154 @@
+#menu {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: normal;
+  text-align: center;
+  font-family: 'WarcraftFont';
+  color: transparent;
+  background-image: linear-gradient(to right, #ff6b6b, #feca52);
+  background-clip: text;
+  margin: 10px 20px;
+  text-shadow: 1px 1px 1px #00000052;
+}
+
+.icon-class-20:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  filter: brightness(1.2);
+}
+
+@font-face {
+  font-family: 'WarcraftFont';
+  src: local('WarcraftFont'), url('../fonts/Warcraft-Yj2j.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: rgb(38, 39, 39);
+  color: white;
+  min-height: 100%;
+}
+
+.icon-class-20 {
+  height: auto;
+  width: 20%;
+  cursor: pointer;
+}
+
+footer {
+  display: block;
+  margin-top: 10px;
+  border-top: solid 1px black;
+}
+
+.info-class {
+  display: flex
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    font-size: 36px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+
+  .info-class img {
+    width: 20%;
+    margin: 10px;
+    outline: 1px solid black;
+  }
+
+  .info-class p {
+    width: 80%;
+    font-size: 32px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-gallery {
+    max-width: 19%;
+    margin: 0.5%;
+    outline: 1px solid black;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1024px) {
+  header {
+    font-size: 40px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+  .info-class img {
+    width: 50%;
+    margin: 10px;
+    outline: 1px solid black;
+  }
+
+  .info-class p {
+    width: 50%;
+    font-size: 38px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image-gallery {
+    max-width: 48%;
+    margin: 1%;
+    outline: 1px solid black;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+
+  .info-class {
+    flex-direction: column;
+  }
+
+  .info-class img {
+    width: auto;
+    margin: 0px;
+    outline: 1px solid black;
+  }
+
+  .info-class p {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .image-gallery {
+    max-width: 100%;
+    outline: 1px solid black;
+  }
+}
+
+footer a {
+  color: cadetblue;
+
+}
