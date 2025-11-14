@@ -1,20 +1,20 @@
 function hideAllInfoClass(id) {
-  const listElements = document.querySelectorAll('.info-class:not(' + id + ')');
+  const LIST_ELEMENTS = document.querySelectorAll('.info-class:not(' + id + ')');
 
 
-  listElements.forEach(elem => {
+  LIST_ELEMENTS.forEach(elem => {
     elem.style.display = "none";
   });
 }
 
 function showElementById(id) {
-  const element = document.querySelector(id);
-  console.log(element.style.display)
-  if (element.style.display === "flex") {
-    element.style.display = "none";
+  const ELEMENT = document.querySelector(id);
+  console.log(ELEMENT.style.display)
+  if (ELEMENT.style.display === "flex") {
+    ELEMENT.style.display = "none";
   }
   else {
-    element.style.display = "flex";
+    ELEMENT.style.display = "flex";
   }
 }
 

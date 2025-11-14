@@ -1,84 +1,92 @@
-# U.T.2 – Prototipo 1 – Entrega 1  
-**Web de clases de World of Warcraft**  
+# U.T.2 -- Prototype 1 -- Submission 1
 
----
+**World of Warcraft Classes Website**
 
-## 📄 Descripción  
-Este proyecto es la primera entrega del módulo U.T.2, un prototipo realizado con **HTML**, **CSS** y **JavaScript**.  
-El objetivo es construir una página web que muestre la información de clases de World of Warcraft, con estructura, estilo y algo de interacción.  
+## 📄 Description
 
-El prototipo incluye:  
-- Página principal con diseño responsive  
-- Secciones para mostrar distintas clases del juego  
-- Navegación entre secciones  
-- Estilos visuales con CSS  
-- Funcionalidades básicas con JavaScript (por ejemplo, mostrar/ocultar contenido, efectos)  
+This project is the first submission for module U.T.2, a prototype
+created using **HTML**, **CSS**, and **JavaScript**.\
+The goal is to build a webpage that displays information about World of
+Warcraft classes, with structure, styling, and basic interactivity.
 
----
+The prototype includes:\
+- A responsive main page\
+- Sections showcasing various classes from the game\
+- Navigation between sections\
+- Visual design using CSS\
+- Basic JavaScript features (e.g., show/hide elements, simple effects)
 
-## 🛠️ Tecnologías usadas  
-- HTML5  
-- CSS3  
-- JavaScript (vanilla)  
-- Recursos gráficos: imágenes, iconos  
+## 🎨 Design Inspiration
 
----
+The visual style and UI layout of this project were partially inspired
+by a modern and clean dashboard concept from Dribbble titled **"Customer
+Journey CRM Dashboard"**, which influenced the use of spacing, color
+contrast, card layouts, and minimalistic component styling.
 
-## 📂 Estructura del proyecto  
-```
-/
-├── css/
-│   └── estilos.css
-├── js/
-│   └── script.js
-├── img/
-│   └── (imágenes usadas)
-├── fonts/
-│   └── (tipografías usadas)
-├── index.html
-└── README.md
-```
+Reference:\
+https://dribbble.com/shots/24659454-Customer-Journey-CRM-Dashboard
 
----
+## 🛠️ Technologies Used
 
-## ✅ Cómo usar / ver el proyecto  
-1. Clona este repositorio:  
-   ```bash
-   git clone https://github.com/victormanuelgarciabatista-arch/U.T.2---Prototipo-1---Entrega-1---Proyecto-con-CSS--HTML-y-JavaScript.git
-   ```  
-2. Entra a la carpeta del proyecto:  
-   ```bash
-   cd U.T.2---Prototipo-1---Entrega-1---Proyecto-con-CSS--HTML-y-JavaScript
-   ```  
-3. Abre `index.html` en tu navegador (puedes usar Live Server si usas VSCode u otra extensión).  
-4. Explora las distintas clases, prueba las interacciones y navega entre secciones.
+-   HTML5\
+-   CSS3\
+-   Vanilla JavaScript\
+-   Graphic resources: images and icons
 
----
+## 📂 Project Structure
 
-## 🎯 Retos y mejoras futuras  
-- Mejorar el diseño responsive para móviles muy pequeños  
-- Añadir animaciones más elaboradas con JavaScript o CSS  
-- Incluir más contenido dinámico (por ejemplo, cargar datos desde JSON)  
-- Optimizar imágenes y tiempos de carga  
-- Accesibilidad: añadir atributos ARIA, etiquetas semánticas  
+    /
+    ├── css/
+    │   └── estilos.css
+    ├── js/
+    │   └── script.js
+    ├── img/
+    │   └── (images used)
+    ├── fonts/
+    │   └── (fonts used)
+    ├── index.html
+    └── README.md
 
----
+## ✅ How to Use / View the Project
 
-## 🙏 Agradecimientos  
-Quiero agradecer a:  
-- **Los chicharreros**, por su apoyo, su energía y su arte.  
-- **Varyan**, que en paz descanse, por la inspiración y las aventuras compartidas.  POR LA ALIANZA!! 
-- Mi profesor **Tiburcio** por proponerme estos trabajos sin entender nada.
-- Los recursos libres (imágenes, iconos, tipografías) usados en el proyecto.  
-- A mis compañeros por su feedback y apoyo.  
+1.  Clone this repository:\
+    git clone
+    https://github.com/victormanuelgarciabatista-arch/U.T.2---Prototipo-1---Entrega-1---Proyecto-con-CSS--HTML-y-JavaScript.git
 
----
+2.  Navigate into the project folder:\
+    cd
+    U.T.2---Prototipo-1---Entrega-1---Proyecto-con-CSS--HTML-y-JavaScript
 
-## 👤 Autor  
-**Víctor Manuel García Batista**  
-- GitHub: [victormanuelgarciabatista-arch](https://github.com/victormanuelgarciabatista-arch)   
+3.  Open the index.html file in your browser (you can also use Live
+    Server if you're working with VSCode).
 
----
+4.  Explore the different classes, test the interactions, and browse the
+    sections.
 
-## 📄 Licencia  
-Este proyecto está bajo la licencia MIT (o la que decidas usar).  
+## 🎯 Challenges and Future Enhancements
+
+-   Improve responsive design for very small mobile devices\
+-   Add more advanced animations using JavaScript or CSS\
+-   Implement dynamic content loading (e.g., from a JSON file)\
+-   Optimize image files and loading times\
+-   Improve accessibility with ARIA attributes and semantic HTML tags
+
+## 🙏 Acknowledgements
+
+Special thanks to:\
+- The chicharreros, for their support, energy, and creativity.\
+- Varyan, may he rest in peace, for the inspiration and shared
+adventures. FOR THE ALLIANCE!!\
+- My teacher Tiburcio, for send me 8 years old videos.
+- The free resources used in the project (images, icons, fonts).\
+- My classmates for their feedback and support.
+- My new guild Sorry Lag for my next adventure.
+
+## 👤 Author
+
+**Víctor Manuel García Batista**\
+GitHub: https://github.com/victormanuelgarciabatista-arch
+
+## 📄 License
+
+This project is licensed under the MIT License.
