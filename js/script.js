@@ -1,7 +1,6 @@
 function hideAllInfoClass(id) {
   const LIST_ELEMENTS = document.querySelectorAll('.info-class:not(' + id + ')');
 
-
   LIST_ELEMENTS.forEach(elem => {
     elem.style.display = "none";
   });
@@ -23,3 +22,24 @@ function showInfoClass(id) {
   showElementById(id);
 }
 
+function goHomepage() {
+  window.location.href = "index.html"
+}
+
+function getCurrentIncident() {
+  let currentIncident = null;
+
+  if (localStorage.getItem("currentIncident") != null) {
+    currentIncident = (localStorage.getItem("currentIncident"));
+  }
+  return currentIncident;
+}
+
+function getTable() {
+  let table = [];
+
+  if (localStorage.getItem("table") != null) {
+    table = JSON.parse(localStorage.getItem("table"));
+  }
+  return table;
+}

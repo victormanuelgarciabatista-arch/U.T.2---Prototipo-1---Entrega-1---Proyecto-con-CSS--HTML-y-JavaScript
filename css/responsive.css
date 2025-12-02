@@ -1,0 +1,183 @@
+/* max-width: 600*/
+header {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+header h1 {
+  display: none;
+}
+
+header img {
+  width: 50%;
+  margin: auto;
+}
+
+footer {
+  align-items: center;
+  margin-top: 10px;
+  border-top: solid 1px black;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.logo-footer {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: auto;
+}
+
+footer p {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+footer a {
+  color: cadetblue;
+}
+
+.info-class {
+  flex-direction: column;
+}
+
+.info-class img {
+  width: auto;
+  margin: 0px;
+  outline: 1px solid black;
+}
+
+.info-class p {
+  width: 100%;
+  font-size: 22px;
+}
+
+.gallery {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  header {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    color: #f2d16b;
+    font-size: 40px;
+  }
+
+  header img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+  }
+
+  header h1 {
+    display: block;
+    margin-top: 10px;
+    font-size: 2em;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+  .info-class {
+    flex-direction: initial;
+  }
+
+  .info-class img {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .info-class p {
+    width: 50%;
+    font-size: 38px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .info-class {
+    display: flex;
+    flex-direction: initial;
+  }
+
+  .info-class img {
+    width: 20%;
+    margin: 10px;
+  }
+
+  .info-class p {
+    width: 80%;
+    font-size: 32px;
+  }
+
+  header {
+    font-size: 36px;
+  }
+
+  header h1 {
+    display: block;
+  }
+
+  header img {
+    width: 23%;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .logo-footer {
+    margin: 0;
+  }
+
+}
+
+.parallax-container {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  border: solid 2px #f2d16b;
+}
+
+.parallax-img {
+  position: absolute;
+  top: -20%;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  background-image: url("../img/backgrounds/wow-xalatath.avif");
+  background-size: cover;
+  background-position: center;
+  will-change: transform;
+}
+
+.parallax-orb {
+  position: absolute;
+  top: 40%;
+  right: -200px;
+  width: 250px;
+  height: 250px;
+  background-image: url("../img/backgrounds/orb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(0 0 20px #fff);
+  will-change: transform;
+}
