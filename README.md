@@ -1,4 +1,4 @@
-# U.T.2 -- Prototype 1 -- Submission 1
+# U.T.2 -- Prototype 1 -- Submission 3
 
 **World of Warcraft Classes Website**
 
@@ -47,6 +47,27 @@ https://dribbble.com/shots/24659454-Customer-Journey-CRM-Dashboard
     ├── index.html
     └── README.md
 
+## 🆕 Recent Additions
+
+The project has been enhanced with several new interactive and visual features:
+
+- **CRUD Table Implementation:**  
+  A fully functional table has been added, supporting **Create, Read, Update, and Delete** operations.
+
+- **Scroll Progress Animation:**  
+  A top-page **scroll animation bar** shows how far the user has progressed while scrolling.
+
+- **Gradient Scroll Styling:**  
+  The scroll progress bar includes a **gradient effect**, adding a modern aesthetic.
+
+- **Button Hover Effects:**  
+  Header buttons now feature **hover animations**, enhancing interaction feedback.
+
+- **Animated Page Title:**  
+  The main title includes a **text animation**, improving the page’s overall presentation.
+
+These updates improve usability, interactivity, and visual design, bringing the prototype closer to a polished final product.
+
 ## ✅ How to Use / View the Project
 
 1.  Clone this repository:\
@@ -74,13 +95,13 @@ https://dribbble.com/shots/24659454-Customer-Journey-CRM-Dashboard
 ## 🙏 Acknowledgements
 
 Special thanks to:\
-- The chicharreros, for their support, energy, and creativity.\
+- The chicharreros, for this nights of help and support.\
 - Varyan, may he rest in peace, for the inspiration and shared
 adventures. FOR THE ALLIANCE!!\
-- My teacher Tiburcio, for send me 8 years old videos.
+- My teacher Tiburcio, for approve my work.\
 - The free resources used in the project (images, icons, fonts).\
-- My classmates for their feedback and support.
-- My new guild Sorry Lag for my next adventure.
+- My classmates for their feedback and support.\
+- My guild Sorry Lag for future movements.
 
 ## 👤 Author
 
